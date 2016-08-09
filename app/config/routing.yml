@@ -1,0 +1,7 @@
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+intro:
+    path:     /intro
+    defaults: { _controller: AppBundle:Default:intro }
